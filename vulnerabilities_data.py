@@ -1,0 +1,23 @@
+vulnerabilities = [
+    {"CVE": "2017-0144", "Name": "EternalBlue", "SMB": "SMBv1", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Vulnerable[^2]"},
+    {"CVE": "2020-0796", "Name": "SMBGhost", "SMB": "SMBv3", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Vulnerable[^3]"},
+    {"CVE": "N/A", "Name": "SMBLoris", "SMB": "N/A", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Vulnerable[^4]"},
+    {"CVE": "2016-2118", "Name": "Badlock", "SMB": "N/A", "Linux Impact": "Not Affected", "Windows Impact": "Vulnerable[^5]"},
+    {"CVE": "2017-7494", "Name": "SambaCry", "SMB": "N/A", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Not Affected"},
+    {"CVE": "2020-1472", "Name": "Zerologon", "SMB": "SMBv1, SMBv2", "Linux Impact": "Not Affected", "Windows Impact": "Vulnerable[^6]"},
+    {"CVE": "2017-0143, 2017-0144", "Name": "MS17-010", "SMB": "SMBv1", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Vulnerable[^7]"},
+    {"CVE": "N/A", "Name": "SMBRelay", "SMB": "SMBv1", "Linux Impact": "Exploitable[^8]", "Windows Impact": "Exploitable[^8]"},
+    {"CVE": "2008-4250", "Name": "MS08-067", "SMB": "SMBv1", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Vulnerable[^9]"},
+    {"CVE": "N/A", "Name": "SMBv2/3 Null Session", "SMB": "SMBv2, SMBv3", "Linux Impact": "Information Disclosure[^10]", "Windows Impact": "Information Disclosure[^10]"},
+    {"CVE": "2017-0143", "Name": "EternalSynergy", "SMB": "SMBv1", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Vulnerable[^11]"},
+    {"CVE": "2020-1206", "Name": "SMBleed", "SMB": "SMBv3", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Vulnerable[^12]"},
+    {"CVE": "N/A", "Name": "SMBLoris", "SMB": "N/A", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Vulnerable[^13]"},
+    {"CVE": "N/A", "Name": "SMBv3 Compression Vulnerability", "SMB": "SMBv3", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Vulnerable[^14]"},
+    {"CVE": "2020-0796", "Name": "SMBGhost RCE", "SMB": "SMBv3", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Vulnerable[^3]"},
+    {"CVE": "2020-0796", "Name": "SMBv3 Null Byte Write", "SMB": "SMBv3", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Vulnerable[^3]"},
+    {"CVE": "N/A", "Name": "SMBLoris", "SMB": "N/A", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Vulnerable[^13]"},
+    {"CVE": "2021-26915", "Name": "SMBv3 Uninitialized Memory", "SMB": "SMBv3", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Vulnerable[^15]"},
+    {"CVE": "2021-26877", "Name": "SMBv3 MS-EFSRPC Heap Overflow", "SMB": "SMBv3", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Vulnerable[^16]"},
+    {"CVE": "2021-26902", "Name": "SMBv3 Secure Negotiation Bypass", "SMB": "SMBv3", "Linux Impact": "Vulnerable[^1]", "Windows Impact": "Vulnerable[^1]"},
+]
+
